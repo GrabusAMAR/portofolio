@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amar Grabus</title>
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="responsive.css">
 </head>
@@ -16,18 +16,16 @@
                 <h1>Amar<span>.</span></h1>
             </div>
             <div class="other">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Project</li>
-                <li>Pricing</li>
-                <li>Testimonial</li>
-                <li>Contact us</li>
+                <a href="#home"><li>Home</li></a>
+                <a href="#services"><li>Services</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#contact"><li>Contact</li></a>
                 <button class="pink">
                     <h2>Hire us</h2>
                 </button>
             </div>
         </div>
-        <div class="main1">
+        <div class="main1" id="home">
             <div class="main1-left">
                 <h3>Hi There, I'm Amar</h3>
                 <h1>Full Stack Developer</h1>
@@ -49,41 +47,26 @@
             </div>
             <div class="main1-right"></div>
         </div>
-        <div class="main2">
-            <div class="main2-left">
-                <div class="content1">
-                    <div class="icon1"></div>
-                    <div class="text1">
-                        <h1>Fast Learn</h1>
-                        <p>At Fast Learn, we believe that everyone has the potential to achieve greatness. Our mission is to provide you with the tools.</p>
-                    </div>
-                </div>
-                <div class="content2">
-                    <div class="icon2"></div>
-                    <div class="text2">
-                        <h1>Creative</h1>
-                        <p>Founded in 2019, Creative was born from a passion for storytelling, innovation, and design. Our mission is to bring imagination to life through cutting-edge creative solutions.</p>
-                    </div>
-                </div>
+
+        <div class="timer-container">
+            <h1 class="timer-title" id="timer-title">Time to my birthday...</h1>
+            <div id="countdown">
+                <ul class="timer-list">
+                    <li class="timer-li"><span id="days"></span>DAYS</li>
+                    <li class="timer-li"><span id="hours"></span>HOURS</li>
+                    <li class="timer-li"><span id="minutes"></span>MINUTES</li>
+                    <li class="timer-li"><span id="seconds"></span>SECONDS</li>
+                </ul>
             </div>
-            <div class="main2-right">
-                <div class="content3">
-                    <div class="icon3"></div>
-                    <div class="text3">
-                        <h1>Friendly Support</h1>
-                        <p>The idea for Friendly Support was born out of a simple observation. Customer support is seen as a necessary burden rather than an opportunity to delight customers.</p>
-                    </div>
-                </div>
-                <div class="content4">
-                    <div class="icon4"></div>
-                    <div class="text4">
-                        <h1>Work Hard</h1>
-                        <p>Work Hard was founded by Jasmin Fajkić, a driven entrepreneur and motivational speaker, who turned their own story of overcoming adversity into a platform to help others do the same.</p>
-                    </div>
-                </div>
+
+            <div id="content" class="timer-emojis">
+                <span>🥳</span>
+                <span>🎉</span>
+                <span>🎂</span>
             </div>
         </div>
-        <div class="main3">
+    
+        <div class="main3" id="services">
             <div class="main3-title">
                 <div class="first-title">
                     <h3>Services</h3>
@@ -116,7 +99,7 @@
                 </div>
             </div>
         </div>
-        <div class="main4">
+        <div class="main4" id="portfolio">
             <div class="main4-title">
                 <h3>Portofolio</h3>
                 <h1>See our awesome done project</h1>
@@ -156,7 +139,7 @@
                 </div>
             </div>
         </div>
-        <div class="main5">
+        <!--<div class="main5" id="pricing">
             <div class="main5-title">
                 <h3>Pricing</h3>
                 <h1>Choose pricing</h1>
@@ -214,7 +197,7 @@
                     <button class="get-started"><h2>Get Started</h2></button>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="main6">
             <div class="dark">
                 <div class="wrapper6">
@@ -225,7 +208,7 @@
                         <div class="footer6">
                             <div class="icon6"></div>
                             <div class="txt6">
-                                <h1>John Doe</h1>
+                                <h1>Jasmin</h1>
                                 <p>Directur</p>
                             </div>
                         </div>
@@ -237,7 +220,7 @@
                         <div class="footer6">
                             <div class="icon6"></div>
                             <div class="txt6">
-                                <h1>Mario</h1>
+                                <h1>Amar</h1>
                                 <p>Marketing</p>
                             </div>
                         </div>
@@ -249,7 +232,7 @@
                         <div class="footer6">
                             <div class="icon6"></div>
                             <div class="txt6">
-                                <h1>Wesley</h1>
+                                <h1>Armin</h1>
                                 <p>Programming</p>
                             </div>
                         </div>
@@ -257,13 +240,13 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        <div class="footer" id="contact">
             <div class="footer-title">
                 <h5>Give us a call</h5>
                 <h2>+387 61 023 203</h2>
             </div>
             <div class="mail">
-                <p>AmarGrabus@domain.com</p>
+                <p>Agr7.bih@gmail.com</p>
                 <p>Stanična, Travnik Bosna i Hercegovina</p>
             </div>
             <div class="footer-icons">

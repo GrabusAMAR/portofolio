@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     body {
         overflow-x: hidden;
     }
@@ -46,16 +46,6 @@
         background-size: 70%;
         background-repeat: no-repeat;
         width: 90vw;
-    }
-    .main2 {
-        width: 85%;
-        height: 120vh;
-        margin-left: 8%;
-        margin-top: -10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .main2-left {
         width: 100%;
@@ -265,7 +255,49 @@
     }
     
 }
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 600px) {
+    .icon2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 437px) {
+    .fofana {
+        margin-left: 10%;
+    }
+    .see {
+        width: 180%;
+    }
+    #loader {
+        left: 120%;
+        top: -100%;
+    }
+    .button-learnmore {
+        margin-top: 4%;
+        width: 150%;
+        height: 90%;
+    }
+    .see a {
+        margin-top: -50%;
+        font-size: 1.2rem;
+    }
+    .main2 {
+        margin-left: 4%;
+    }
+    .main3 {
+        margin-left: -13%;
+    }
+    .box2 {
+        width: 82%;
+    }
+    .main4 {
+        margin-left: -7%;
+    }
+    .main5 {
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 437px) {
     body {
         padding: 0;
         margin: 0;
@@ -278,14 +310,14 @@
     }
     .main1 {
         width: 100vw;
-        height: 110vh;
+        height: 100vh;
         margin-left: -5%;
-        margin-top: 12%;
+        padding: 8%;
     }
     .main1-left {
         width: 65vw;
         height: 85vh;
-        margin-top: 2%;
+        margin-top: 7%;
     }
     .main1-left h1 {
         font-size: 3rem;
@@ -298,8 +330,10 @@
         font-size: 1.7rem;
     }
     .main1-left p {
-        width: 65vw;
+        width: 80vw;
+        margin-bottom: 0;
         margin-right: 0;
+        margin-left: 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -307,9 +341,8 @@
         height: 10vh;
         width: 100%;
     }
-    .button-learnmore {
-        width: 120%;
-        height: 70%;
+    #loader {
+        top: 3rem;
     }
     .see {
         font-size: 0.6rem;
@@ -318,21 +351,20 @@
         font-size: 1rem;
     }
     .see {
-        width: 120%;
         margin-top: 1.5%;
     }
     .main1-right {
         width: 50vw;
         height: 76vh;
-        margin-top: -100%;
-        background-position: 300%;
-        border: 1PX SOLID BLACK;
-        z-index: 99;
+        margin-top: -48.5em;
+        margin-left: 13rem;
+        background-size: 110%;
     }
     .main2 {
         width: 87vw;
-        height: 162vh;
+        height: 165vh;
         gap: 0;
+        margin-left: 0.5rem;
     }
     .content1 {
         height: 50%;
@@ -351,7 +383,6 @@
         margin-right: -10%;
     }
     .icon1 {
-        width: 60%;
         margin-left: -10%;
     }
     .text2 {
@@ -401,17 +432,17 @@
     }
     .box1 {
         width: 80vw;
-        margin-left: 10%;
+        margin-left: 1.7rem;
         padding: 3%;
     }
     .box2 {
-        margin-left: 10%;
+        margin-left: 1.7rem;
         width: 80;
         padding: 3%;
     }
     .box3 {
         width: 80vw;
-        margin-left: 10%;
+        margin-left: 1.7rem;
         padding: 3%;
     }
     .main4-title {
@@ -429,7 +460,8 @@
         height: 20%;
     }
     .main5-title {
-        display: flex	;
+        margin-top: -190%;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -444,10 +476,11 @@
         margin-right: -5%;
         margin-left: 0;
         padding-left: 8%;
-        height: 295vh;
+        height: 300vh;
     }
     .main5-content {
         width: 100%;
+        margin-left: 1%;
     }
     .content5 {
         width: 100%;
